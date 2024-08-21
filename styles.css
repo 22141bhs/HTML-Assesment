@@ -6,7 +6,7 @@ body {
 }
 
 .hero-image {
-    background-image: url('/images/2024-07-03_17.03.45.png'); /* Replace with your image path */
+    background-image: url('/images/2024-07-03_17.03.45.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -17,14 +17,22 @@ body {
     text-align: center;
 }
 
+.nav {
+    transition: 0.2s;
+
+}
+
+.nav:hover {
+    scale: 1.2;
+}
+
 .overlay {
-    background-color: rgba(0, 0, 0, 0.0); /* Make the background fully transparent */
+    background-color: rgba(0, 0, 0, 0.0);
     width: 100%;
     padding: 20px;
 }
 
 h1 {
-    font-family: 'fantasy';
     font-size: 3em;
     color: #ffffff;
     margin: 0;
@@ -33,7 +41,7 @@ h1 {
 .navbar {
     background-color: #1B1B1B;
     display: flex;
-    justify-content: center; /* Center the options in the navbar */
+    justify-content: center;
     align-items: center;
     padding: 10px 0;
     text-align: center;
@@ -78,6 +86,11 @@ h1 {
 .search-icon {
     width: 27px;
     height: 24px;
+    transition: 0.2s;
+}
+
+.search-icon:hover{
+    scale: 1.2;
 }
 
 .content {
@@ -92,4 +105,33 @@ a {
 
 h2 {
     font-size: 30px;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.info{
+    font-size: 1.25em;
+    text-align: left;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.two-column2{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
