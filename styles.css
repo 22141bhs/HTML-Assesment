@@ -6,7 +6,7 @@ body {
 }
 
 .hero-image {
-    background-image: url('/images/2024-07-03_17.03.45.png');
+    background-image: url('images/2024-07-03_17.03.45.png');
     background-size: cover;
     background-position: center;
     position: relative;
